@@ -4,10 +4,10 @@ import CartWidget from "../CartWidget/CartWidget"
 function NavBar() {
   return (
     <nav>
-        <div className="d-flex justify-content-space-around p-2">
+        <div className="p-3 text-center">
             <h1>Jugueteria la feliz</h1>
         </div>
-        <div className="d-flex flex-row justify-content-evenly align-items-center p-4">
+        <div className="d-flex flex-row justify-content-evenly align-items-center p-3">
             <div>
                 <button type="button" class="btn">Inicio</button>
                 <button type="button" class="btn">Quienes somos</button>
